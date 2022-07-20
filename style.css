@@ -1,0 +1,121 @@
+.header-container {
+    display: flex;
+    background-color: #161616;
+    margin: 50px auto;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+
+}
+
+.header-container .halp-width {
+    width: 50%;
+}
+
+.halp-width h1 {
+    width: 531px;
+    height: 240px;
+    left: 246px;
+    top: 161px;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.halp-width p {
+    width: 506px;
+    height: 78px;
+    left: 246px;
+    top: 421px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+.halp-width img {
+    width: 75%;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    color: white;
+}
+
+/*------ course style---------- */
+.main-container {
+    display: flex;
+    padding-left: 50px;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+.section-container {
+    width: 1000px;
+    height: 1000px;
+    left: 140px;
+    top: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: coral;
+   justify-content: center;
+   align-items: center;
+}
+
+.button-1{
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    
+}
+.button-2{
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.button-3{
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: #710404;
+    border-radius: 5px;
+}
+
+
+.coureses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin: 0 auto;
+}
+
+.course-info {
+    display: flex;
+
+}
+
+.course {
+    width: 312px;
+    height: 362px;
+    left: 461px;
+    top: 826px;
+}
+
+.course-banner a {
+    text-decoration: none;
+    color: #161616;
+    ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
